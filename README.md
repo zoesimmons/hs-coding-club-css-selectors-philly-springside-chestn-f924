@@ -1,8 +1,9 @@
 # My Name is ... what? My Name is ...who ? CSS Selectors
 
+<img src="https://s3.amazonaws.com/after-school-assets/css-selectors.jpg" width="300" align="right" hspace="10">
+
 CSS Selectors are some of the most important things to really understand. Without selecting which text you want to apply styling, our pages would remain black text on a white background. It's important to properly select your HTML elements so you apply your styling as specifically as a possible.
 
-<img src="https://s3.amazonaws.com/after-school-assets/css-selectors.jpg" width="300" align="right" hspace="10">
 
 **Use these examples to help you with the next project!**
 
