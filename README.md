@@ -4,6 +4,8 @@ CSS Selectors are some of the most important things to really understand. Withou
 
 <img src="https://s3.amazonaws.com/after-school-assets/css-selectors.jpg" width="300" align="right" hspace="10">
 
+**Use these examples to help you with the next project!**
+
 
 ## Classes
 
