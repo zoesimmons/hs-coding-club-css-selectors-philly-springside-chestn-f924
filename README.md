@@ -23,7 +23,7 @@ You're going to code your solution in `css/gems.css`. Go ahead and open that fil
 
 ### Move the Ruby
 
-<img src="images/ruby-gem.png" aligh="right" width="100px">
+<img src="images/ruby-gem.png" align="right" width="100px" hspace="10">
 
 Obviously we want to go for the biggest gem first. As a pirate, there is always the risk of attack by enemy ships. Time is always of the essence, and the ruby is the biggest stone. 
 
@@ -44,7 +44,7 @@ Save the changes to `css/gems.css` and refresh in the browser. You should have p
 
 ### Move the Emerald
 
-<img src="images/emerald-gem.png" aligh="right" width="100px">
+<img src="images/emerald-gem.png" align="right" width="100px" hspace="10">
 
 Emeralds are pretty expensive so we should probably collect that gem next.
 
@@ -57,7 +57,7 @@ Save the changes to `css/gems.css` and refresh in the browser. Emerald done. &#1
 
 ### Move The Sapphire
 
-<img src="images/sapphire-gem.png" aligh="right" width="100px">
+<img src="images/sapphire-gem.png" align="right" width="100px" hspace="10">
 
 The sapphire is going to be pretty tricky to move. There aren't any IDs or classes defined on the `img` tag. But, if you look carefully, you'll notice the `img` tag linking the sapphire is nested inside of a `div` with the id `sand`. This `img` tag is known as a child element of the parent, which is the `div`. 
 
@@ -76,7 +76,7 @@ Sapphire. #10003;
 
 ### Move The Yellow Diamond
 
-<img src="images/yellow-diamond-1.png" aligh="right" width="100px">
+<img src="images/yellow-diamond-1.png" align="right" width="100px" hspace="10">>
 
 Everyone loves a good yellow diamond, so let's make sure we get that guy into our treasure chest. Again, we have a tricky situation. There is no ID or class on the `img` tag, and it's not even nested inside of another div, meaning it's not a child element. 
 
@@ -93,7 +93,7 @@ Save your changes and refresh in the browser. Yellow diamond complete. &#10003;
 
 ### Move the Diamond
 
-<img src="images/diamond-gem.png" aligh="right" width="100px">
+<img src="images/diamond-gem.png" align="right" width="100px" hspace="10">
 
 
 We saved the hardest for last, this way if we get attacked now, we can run away with four gems instead of just one. The diamond doesn't have any ID's, classes, parent tags, or siblings. The only thing that is unique to the diamond is the `alt` attribute. 
