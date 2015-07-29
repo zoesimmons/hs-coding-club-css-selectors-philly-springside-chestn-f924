@@ -72,11 +72,11 @@ In order to select the sapphire image in our CSS, we can use what's called a des
 
 `#sand img` is our CSS selector. This selector will first look for an HTML tag with the ID `sand`, and from there, look for the `img` child HTML element, and apply that styling to the `img`.
 
-Sapphire. #10003;
+Sapphire.  &#10003;
 
 ### Move The Yellow Diamond
 
-<img src="images/yellow-diamond-1.png" align="right" width="100px" hspace="10">>
+<img src="images/yellow-diamond-1.png" align="right" width="100px" hspace="10">
 
 Everyone loves a good yellow diamond, so let's make sure we get that guy into our treasure chest. Again, we have a tricky situation. There is no ID or class on the `img` tag, and it's not even nested inside of another div, meaning it's not a child element. 
 
@@ -102,4 +102,4 @@ For an `img` tag, the `alt` attribute is "alternate text", which is text that wi
 
 In `css/gems.css`, replace the text `/*selector for diamond goes here */ ` with `img[alt="Diamond"]`. This CSS selector is going to look for an `img` tag that has an `alt` attribute that is storing the text `Diamond`. We only have one `img` tag with that `alt` text, so we're good to go!
 
-Diamond done! #10003; 
+Diamond done.  &#10003; 
