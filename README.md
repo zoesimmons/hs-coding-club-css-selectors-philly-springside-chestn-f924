@@ -1,6 +1,6 @@
 # ARRR Don't Lose Your Gems!
 
-It's tough being a clumsy pirate. It means you trip and fall, your parrot flies into things, and occaisionally you even lose your treasure. Because this last item has happened more than once, we have to be super careful so Blackbeard doesn't get even more mad at us. We were just sent on a mission to pick up some treasure found on the shore of a desserted island. Let's make sure we get all the gems in our treasure chest!
+It's tough being a clumsy pirate. You trip and fall all the time, your parrot flies into things, and occasionally (well, more than just occasionally) you even lose your treasure. Because this last item has happened more than once, we have to be super careful so Blackbeard doesn't get even more mad at us. We were just sent on a mission to pick up some treasure found on the shore of a deserted island. Let's make sure we get all the gems in our treasure chest!
 
 
 ## Let's Get Started
