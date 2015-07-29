@@ -1,110 +1,105 @@
-# My Name is ... what? My Name is ...who ? CSS Selectors
+# ARRR Don't Lose Your Gems!
 
-<img src="https://s3.amazonaws.com/after-school-assets/css-selectors.jpg" width="300" align="right" hspace="10">
-
-CSS Selectors are some of the most important things to really understand. Without selecting which conent you want to apply styling, our pages would remain black text on a white background. It's important to properly select your HTML elements so you apply your styling as specifically as a possible.
+It's tough being a clumsy pirate. It means you trip and fall, your parrot flies into things, and occaisionally you even lose your treasure. Because this last item has happened more than once, we have to be super careful so Blackbeard doesn't get even more mad at us. We were just sent on a mission to pick up some treasure found on the shore of a desserted island. Let's make sure we get all the gems in our treasure chest!
 
 
-**Use these examples of different kinds of CSS selectors to help you with the next project!**
+## Let's Get Started
 
+### Step 1:
 
-## Classes
+Open this lesson in Nitrous, by clicking the `Open In Nitrous` button in learn.
 
-Let's say we have a paragraph with the class `text-1` defined on it. 
+<img src="https://s3.amazonaws.com/after-school-assets/open-in-nitrous.png">
 
-```html
-  <p class="text-1"> Scoop, toppings marshmellow caramel shortcake ice sherbet banana sorbet. Butter peanut butter soft serve, cheesecake sundae soft serve. Vanilla froyo cheesecake chocolate chip, raspberry, maple. Shortcake coffee caramel peppermint nut peanut butter butterscotch soft serve banana pecan coffee. Cookies and cream nut orange frozen peppermint raspberry banana toppings.</p>
-```
+### Step 2:
 
-And let's say we want to make the font color of that paragraph blue: 
+Open `index.html` in the browser by running in terminal ` `python -m SimpleHTTPServer 3000`. 
 
+Once you have the server running, select `preview` and then `port 3000`.
+
+<img src="https://s3.amazonaws.com/after-school-assets/nitrous-preview.png" alt="nitrous preview">
+
+You're going to code your solution in `css/gems.css`. Go ahead and open that file in Nitrous, as well as `index.html`.
+
+### Move the Ruby
+
+<img src="images/ruby-gem.png" aligh="right" width="100px">
+
+Obviously we want to go for the biggest gem first. As a pirate, there is always the risk of attack by enemy ships. Time is always of the essence, and the ruby is the biggest stone. 
+
+If you take a look in `index.html`, you'll notice that the `img` tag has an ID `ruby`. We want to use that ID as our CSS selector to move the Ruby from the sand to the treasure box.
+
+In `css/gems.css`, you'll want to replace the text `/*selector for ruby goes here */` with `#ruby`. `#ruby` is our CSS selector. The `#` signifies an ID. This selector is telling our CSS to find the content with the id `ruby` and to apply the specific styling listed between the curly brackets.
 
 ```css
-.text-1 {
-  color: blue;
+#ruby {
+  position: absolute;
+  z-index: 1;
+  top: 315px;
+  left: 175px;
 }
 ```
 
-In this example, we're using `.text-1` as our CSS selector. This is telling our CSS to find a paragraph take with the class `text-1` and change that font color to blue. We tell CSS to look for a class by using a `.` in front of the name of the class.
+Save the changes to `css/gems.css` and refresh in the browser. You should have put the ruby in the chest. &#10003;
 
-## IDs
+### Move the Emerald
 
-Now let's say we have two paragraphs. Our second paragraph has the id `icecream-2`, and we want to change the font of the 2nd to Wingdings.
+<img src="images/emerald-gem.png" aligh="right" width="100px">
 
-```html
-<p> Chocolate scoop mocha, raspberry cake sorbet froyo caramel. Mocha apple almond cake mocha coffee cookies and cream almond froyo. Apple cherry cake toppings almond, cup gelato coffee. Ice soft serve white chocolate, cup ice caramel banana blueberry nut chocolate peanut butter. Sorbet flavour caramel froyo almond cake, butter gelato chunky flavour cup.</p>
+Emeralds are pretty expensive so we should probably collect that gem next.
 
-<p id="icecream-2">Soft serve marshmellow toppings orange, chocolate pecan, sundae flavour sherbet banana. Marshmellow almond sundae mint froyo nut toppings mint, blueberry butterscotch apple. Chunky popsicle, dessert cone maple banana marshmellow maple ice almond banana. Nut flavour banana maple cup apple caramel cup froyo. Sundae froyo froyo soft serve banana cone scoop gelato marshmellow.</p>
-```
+If you look at the code in `index.html`, the `img` tag for the emerald has the class `emerald` defined. We want to use that class as our CSS selector to move the emerald into the chest.
 
-```css
-#icecream-2 {
-  font-family: Wingdings;
-}
-```
+In `css/gems.css`, you'll want to replace the text `/*selector for emerald goes here */` with the CSS selector, `.emerald`. The `.` tells CSS we're selecting a class. This selector is telling our CSS to find the content with the class `emerald` and to apply the specific styling to that image.
 
-In this example, `#icecream-2` is our CSS selector. We tell CSS that we're selecting an id by using the `#` in front of the ID name (in this case `icecream-2`).
+Save the changes to `css/gems.css` and refresh in the browser. Emerald done. &#10003;
 
-## Descendant Selectors
 
-In our HTML, we can set up parent and child elements by nesting elements inside one another like this:
+### Move The Sapphire
+
+<img src="images/sapphire-gem.png" aligh="right" width="100px">
+
+The sapphire is going to be pretty tricky to move. There aren't any IDs or classes defined on the `img` tag. But, if you look carefully, you'll notice the `img` tag linking the sapphire is nested inside of a `div` with the id `sand`. This `img` tag is known as a child element of the parent, which is the `div`. 
 
 ```html
-<div id="lots-of-text">
-  <p>Soft serve marshmellow toppings orange, chocolate pecan, sundae flavour sherbet banana. Marshmellow almond sundae mint froyo nut toppings mint, blueberry butterscotch apple. Chunky popsicle, dessert cone maple banana marshmellow maple ice almond banana. Nut flavour banana maple cup apple caramel cup froyo. Sundae froyo froyo soft serve banana cone scoop gelato marshmellow.</p>
-</div>
+    <div id="sand">
+      <img src="images/sapphire-gem.png" alt="Sapphire">
+    </div>
+
 ```
 
-In the HTML above, the `p` tag is nested inside of a `div` with the id `lots-of-text`. This makes the `p` tag a child of the `div`. We can set up a descendant selector in our CSS like this:
+In order to select the sapphire image in our CSS, we can use what's called a descendant selector. In `css/gems.css` you'll want to replace the text `/*selector for sapphire goes here */ ` with `#sand img`. 
 
-```css
-#lots-of-text p {
-  color: red;
-}
-```
+`#sand img` is our CSS selector. This selector will first look for an HTML tag with the ID `sand`, and from there, look for the `img` child HTML element, and apply that styling to the `img`.
 
-In this example, we're using the CSS selector `#lots-of-text p`. Basically, we're saying find the ID `lots-of-text` and then look for a `p` tag inside that ID. The `p` tag is a descendant of the `div` with the id `lots-of-text`.
+Sapphire. #10003;
 
-## Adjacaent Sibling Selector
+### Move The Yellow Diamond
 
-HTML elements can be siblings if they are nested at the same level like this:
+<img src="images/yellow-diamond-1.png" aligh="right" width="100px">
+
+Everyone loves a good yellow diamond, so let's make sure we get that guy into our treasure chest. Again, we have a tricky situation. There is no ID or class on the `img` tag, and it's not even nested inside of another div, meaning it's not a child element. 
+
+If you look a little more closely, you'll notice the `img` tag with the yellow diamond is right next to a `div` with the id `ocean`. This `div` and `img` tag are known as sibling elements.
 
 ```html
-<div id="lots-of-text">
-  <p id="first">Soft serve marshmellow toppings orange, chocolate pecan, sundae flavour sherbet banana. Marshmellow almond sundae mint froyo nut toppings mint, blueberry butterscotch apple. </p>
-  <p> Chunky popsicle, dessert cone maple banana marshmellow maple ice almond banana. Nut flavour banana maple cup apple caramel cup froyo. Sundae froyo froyo soft serve banana cone scoop gelato marshmellow.</p>
-</div>
+<div id="ocean"></div>
+<img src="images/yellow-diamond-1.png" alt="yellow diamond">
 ```
 
-The two paragraphs are known as sibling elements. Because they are next to each other, they are "adjacent siblings"
+We can use a sibling CSS selector to move the yellow diamond. In `css/gems.css`, replace the text `/*selector for yellow diamond goes here */ ` with `#ocean + img`. This CSS selector will first look for an HTML tag with the id `ocean`, and then for an `img` tag immediately following. 
 
-If we wanted to select the paragraph next to the paragraph with the id `first`, we'd write our CSS like this:
+Save your changes and refresh in the browser. Yellow diamond complete. &#10003;
 
-```css
-#first + p {
-  font-size: 50px;
-}
-```
+### Move the Diamond
 
-We used the CSS selector `#first + p`. In this case, we're saying apply the styling to the `p` tag that is next to an HTML tag with the id `first`.
+<img src="images/diamond-gem.png" aligh="right" width="100px">
 
-## Attribute Selector
 
-You'll notice that the `img` tag can have lots of attributes (`src` which is the source of the img, `alt`, which is the text that will show up in case the image is broken, etc.) We can use whats called an `attribute selector` to select an HTML element based on the value of a specific attribute:
+We saved the hardest for last, this way if we get attacked now, we can run away with four gems instead of just one. The diamond doesn't have any ID's, classes, parent tags, or siblings. The only thing that is unique to the diamond is the `alt` attribute. 
 
-```html
-<img src="http://www.auntebbysicecream.com/000802_c297_0033_cslp.jpg" alt="3 Cones">
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Strawberry_ice_cream_cone_(5076899310).jpg" alt="1 cone">
-```
+For an `img` tag, the `alt` attribute is "alternate text", which is text that will be displayed in the event that the image can't be loaded. We can use a CSS attribute selector to select the diamond.
 
-So let's say we want to add a border to an image that has the alt text `1 cone`:
+In `css/gems.css`, replace the text `/*selector for diamond goes here */ ` with `img[alt="Diamond"]`. This CSS selector is going to look for an `img` tag that has an `alt` attribute that is storing the text `Diamond`. We only have one `img` tag with that `alt` text, so we're good to go!
 
-```css
-img[alt="1 cone"] {
-  border-style: solid;
-  border-width: 5px;
-  border-color: green;
-}
-```
-
-In this example, our CSS selector is `img[alt="1 cone"]`. This selector is saying lets find an `img` tag with the `alt` attribute that is storing the value `1 cone`. Once it finds that, it will add a 5px wide solid green border to that image. 
+Diamond done! #10003; 
