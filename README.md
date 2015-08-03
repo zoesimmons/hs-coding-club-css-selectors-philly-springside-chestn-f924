@@ -1,19 +1,19 @@
 # ARRR Don't Lose Your Gems!
 
-It's tough being a clumsy pirate. You trip and fall all the time, your parrot flies into things, and occasionally (well, more than just occasionally) you even lose your treasure. Because this last item has happened more than once, we have to be super careful so Blackbeard doesn't get even more mad at us. We were just sent on a mission to pick up some treasure found on the shore of a deserted island. Let's make sure we get all the gems in our treasure chest!
+It's tough being a clumsy pirate. You trip and fall all the time, your parrot flies into things, and occasionally (well, more than just occasionally) you even lose your treasure. Because of all of this, we have to be super careful so Blackbeard doesn't get even more mad at us. We were just sent on a mission to pick up some treasure found on the shore of a deserted island. Let's make sure we get all the gems in our treasure chest!
 
 
 ## Let's Get Started
 
 ### Step 1:
 
-Open this lesson in Nitrous, by clicking the `Open In Nitrous` button in learn.
+Open this lesson in Nitrous, by clicking the `Open In Nitrous` button in Learn.
 
 <img src="https://s3.amazonaws.com/after-school-assets/open-in-nitrous.png">
 
 ### Step 2:
 
-Open `index.html` in the browser by running in terminal ` `python -m SimpleHTTPServer 3000`. 
+Open `index.html` in the browser by running in terminal `python -m SimpleHTTPServer 3000`. 
 
 Once you have the server running, select `preview` and then `port 3000`.
 
@@ -78,7 +78,7 @@ Sapphire.  &#10003;
 
 <img src="images/yellow-diamond-1.png" align="right" width="100px" hspace="10">
 
-Everyone loves a good yellow diamond, so let's make sure we get that guy into our treasure chest. Again, we have a tricky situation. There is no ID or class on the `img` tag, and it's not even nested inside of another div, meaning it's not a child element. 
+Everyone loves a good yellow diamond, so let's make sure we get that gem into our treasure chest. Again, we have a tricky situation. There is no ID or class on the `img` tag, and it's not even nested inside of another div, meaning it's not a child element. 
 
 If you look a little more closely, you'll notice the `img` tag with the yellow diamond is right next to a `div` with the id `ocean`. This `div` and `img` tag are known as sibling elements.
 
