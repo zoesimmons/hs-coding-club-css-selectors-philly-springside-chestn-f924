@@ -9,7 +9,7 @@ It's tough being a clumsy pirate. You trip and fall all the time, your parrot fl
 
 ### Step 1:
 
-You need to fork and clone this lesson. If you need a refresher, take a look at `How To: Work On A Lab` for step by step instructions.
+You need to fork and clone this lesson. If you need a refresher, take a look at `How To: Fork and Clone A Lab` for step by step instructions.
 
 
 ### Step 2:
