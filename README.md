@@ -1,5 +1,7 @@
 # ARRR Don't Lose Your Gems!
 
+<img src="https://s3.amazonaws.com/after-school-assets/pirate-cat.jpg" alt="pirate cat" width="300" align="right" hspace="10">
+
 It's tough being a clumsy pirate. You trip and fall all the time, your parrot flies into things, and occasionally (well, more than just occasionally) you even lose your treasure. Because of all of this, we have to be super careful so Blackbeard doesn't get even more mad at us. We were just sent on a mission to pick up some treasure found on the shore of a deserted island. Let's make sure we get all the gems in our treasure chest!
 
 
@@ -18,7 +20,7 @@ Once you have the server running, select `preview` and then `port 3000`.
 
 <img src="https://s3.amazonaws.com/after-school-assets/nitrous-preview.png" alt="nitrous preview">
 
-You're going to code your solution in `css/gems.css`. Go ahead and open that file in Nitrous, as well as `index.html`.
+You're going to code your solution in `css/gems.css`. Go ahead and open that file in the Nitrous text editor, as well as `index.html`.
 
 ### Move the Ruby
 
