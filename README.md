@@ -9,8 +9,9 @@ It's tough being a clumsy pirate. You trip and fall all the time, your parrot fl
 
 ### Step 1:
 
-You need to fork and clone this lesson. If you need a refresher, take a look at `How To: Fork and Clone A Lab` for step by step instructions.
+Click `Open in Nitrous` at the top of this page to bring this lesson down so you can edit files in Nitrous.
 
+<img src="https://s3.amazonaws.com/after-school-assets/open-in-nitrous.png">
 
 ### Step 2:
 
