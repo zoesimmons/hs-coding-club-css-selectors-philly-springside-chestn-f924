@@ -50,7 +50,7 @@ Save the changes to `css/gems.css` and refresh in the browser. You should have p
 
 Emeralds are pretty expensive so we should probably collect that gem next.
 
-If you look at the code in `index.html`, the `img` tag for the emerald has the class `emerald` defined. We want to use that class as our CSS selector to move the emerald into the chest.
+If you look at the code in `index.html`, the `img` tag for the emerald has the class `emerald` defined, instead of an ID. We want to use that class as our CSS selector to move the emerald into the chest. Remember that classes can be used repeatedly in our code, so this would come in handy if there were several emeralds on the beach. We're just getting used to writing different selectors right now, so we're only going to have one emerald.
 
 In `css/gems.css`, you'll want to replace the text `/*selector for emerald goes here */` with the CSS selector, `.emerald`. The `.` tells CSS we're selecting a class. This selector is telling our CSS to find the content with the class `emerald` and to apply the specific styling to that image.
 
@@ -74,7 +74,7 @@ In order to select the sapphire image in our CSS, we can use what's called a des
 
 `#sand img` is our CSS selector. This selector will first look for an HTML tag with the ID `sand`, and from there, look for the `img` child HTML element, and apply that styling to the `img`.
 
-Sapphire.  &#10003;
+Save your changes and refresh in the browser. Sapphire.  &#10003;
 
 ### Move The Yellow Diamond
 
@@ -104,4 +104,8 @@ For an `img` tag, the `alt` attribute is "alternate text", which is text that wi
 
 In `css/gems.css`, replace the text `/*selector for diamond goes here */ ` with `img[alt="Diamond"]`. This CSS selector is going to look for an `img` tag that has an `alt` attribute that is storing the text `Diamond`. We only have one `img` tag with that `alt` text, so we're good to go!
 
-Diamond done.  &#10003; 
+Save your changes and refresh in the browser. Diamond done.  &#10003;
+
+## Reminder 
+
+Don't forget to shut down your server by hitting `control` and `c` before you move on to other material!
