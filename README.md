@@ -111,7 +111,7 @@ Save your changes and refresh in the browser. Diamond done.  &#10003;
 Lastly, you need to enter in terminal in Nitrous `learn submit`. This command will push your work to GitHub and mark this lesson as complete in Learn!
 
 ## Share Share Share!
-Show of your work by taking a screen shot of your filled treasure box or code and share with **\#flatironcodeclub** and **\#dontloseyourgems**
+Show of your work by taking a screenshot of your filled treasure box or code and share with **\#flatironcodeclub** and **\#dontloseyourgems**
 
 ## Reminder 
 
