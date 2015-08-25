@@ -106,6 +106,9 @@ In `css/gems.css`, replace the text `/*selector for diamond goes here */ ` with 
 
 Save your changes and refresh in the browser. Diamond done.  &#10003;
 
+## Share Share Share!
+Show of your work by taking a screen shot of your filled treasure box or code and share with **\#flatironcodeclub** and **\#dontloseyourgems**
+
 ## Reminder 
 
 Don't forget to shut down your server by hitting `control` and `c` before you move on to other material!
