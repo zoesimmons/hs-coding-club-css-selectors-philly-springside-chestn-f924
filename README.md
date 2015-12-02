@@ -116,3 +116,5 @@ Show of your work by taking a screenshot of your filled treasure box or code and
 ## Reminder 
 
 Don't forget to shut down your server by hitting `control` and `c` before you move on to other material!
+
+<a href='https://learn.co/lessons/hs-coding-club-css-selectors' data-visibility='hidden'>View this lesson on Learn.co</a>
