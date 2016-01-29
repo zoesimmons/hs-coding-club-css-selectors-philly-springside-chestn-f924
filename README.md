@@ -117,4 +117,4 @@ Show of your work by taking a screenshot of your filled treasure box or code and
 
 Don't forget to shut down your server by hitting `control` and `c` before you move on to other material!
 
-<a href='https://learn.co/lessons/hs-coding-club-css-selectors' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/hs-coding-club-css-selectors' title='ARRR Don't Lose Your Gems!'>ARRR Don't Lose Your Gems!</a> on Learn.co and start learning to code for free.</p>
